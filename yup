@@ -1,0 +1,7 @@
+echo "# FF7-Csharp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/p3k22/FF7-Csharp.git
+git push -u origin main
