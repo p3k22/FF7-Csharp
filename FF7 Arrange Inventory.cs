@@ -165,9 +165,7 @@ public class FF7Sorting
         switch (methodID)
         {
             case MethodID.Field:
-                return SortByTag(slot1, slot2, (int)methodID) > 0;
             case MethodID.Battle:
-                return SortByTag(slot1, slot2, (int)methodID) > 0;
             case MethodID.Throw:
                 return SortByTag(slot1, slot2, (int)methodID) > 0;
             case MethodID.Type:
